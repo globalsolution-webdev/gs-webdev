@@ -43,3 +43,15 @@ function redirect1() {
 function redirect2() {
     window.location.href = 'https://www.unesco.org/pt/g20/environmental-climate-sustainability';
 }
+
+// VALIDANDO O USUÁRIO NA PÁGINA DE LOGIN
+function validar(){
+    //declarando a variavel
+    let usuario =document.getElementById("usuario").value;
+    let senha =document.getElementById("senha").value;
+    if(usuario == "Admin" && senha === "12345"){
+        window.open('sobre.html');
+    }else{
+        alert("usuario e senha inválidos");
+    }
+}

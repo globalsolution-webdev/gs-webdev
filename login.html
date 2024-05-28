@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ocean - login</title>
 </head>
 <body>
-    
+    <header id="header">
+        <a href="index.html" class="logo">Ocean</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="login.html"><button id="login__btn">Login</button></a>
+    </header>
+
+    <section id="login__conteudo">
+        <h1>Faça o seu cadastro</h1>
+        <form >
+            <label for="usuario">Usuário:</label>
+            <input type="text" placeholder="Digite sue usuario" id="usuario">
+        
+            <label for="senha">Senha:</label>
+            <input type="password" placeholder="Digite sua senha" id="senha">
+        
+        <button onclick="validar()">Login</button>
+        
+           </form> 
+    </section>
+
+    <footer>
+        <p>Ocean © 2024 - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- JAVASCRIPT EXTERNO-->
+    <script src="js/script.js"></script>
 </body>
 </html>
