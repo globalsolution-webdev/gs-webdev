@@ -274,3 +274,61 @@ footer {
     position: sticky;
     bottom: 0;
 }
+
+
+/* ESTILIZAÇÃO DA PÁGINA sobre*/
+.slogan {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.slogan h1 {
+    color: #0099ff;
+    margin-top: 1%;
+}
+.slogan hr {
+    margin-bottom: 20px;
+}
+
+.slogan h2 {
+    margin-top: 5px;
+    color: #0099ff;
+    text-decoration: underline;
+    margin-bottom: 2px;
+}
+
+.slogan p {
+    margin-bottom: 20px;
+}
+
+#imgSobre {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.conteudoDesenvolvimento {
+    display: flex;
+}
+
+.conteudoDesenvolvimento h2 {
+    color: #0099ff;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.conteudoDesenvolvimento p {
+    font-size: 18px;
+}
+
+.conteudoDesenvolvimento__esquerdo {
+    width: 50%;
+    margin: 40px;
+}
+
+.conteudoDesenvolvimento__direito {
+    width: 50%;
+    margin: 40px;
+}
+

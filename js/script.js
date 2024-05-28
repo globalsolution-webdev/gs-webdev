@@ -17,7 +17,7 @@ function alternarCores() {
 }
 alternarCores();
 
-// CRIANDO UM SLIDESHOW AUTOMÁTICO
+// CRIANDO UM SLIDESHOW AUTOMÁTICO (pagina index)
 
 // Declarando as variáveis
 let imagens = [ './img/oceano1.jpeg','./img/oceano2.jpg', './img/oceano3.jpg', './img/oceano4.jpg',];
