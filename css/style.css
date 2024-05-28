@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ESTILIZAÇÃO DO BACKGROUND DA PÁGINA */
+.cor1 {
+    background-color: #1aaaeca4;
+    transition: all 0.25s ease-in-out;
+}
+
+.cor2 {
+    background-color: #2da5eb8c;
+    transition: all 0.25s ease-in-out;
+}
+
+.cor3 {
+    background-color: #008cff81;
+    
+    transition: all 0.25s ease-in-out;
+}
+
+/* ESTILIZAÇÃO DA PÁGINA*/
+
+section {
+    margin-bottom: 10%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #0099ff;
+    box-shadow: 1px 1px 4px black;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.nav__links a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .3s;
+}
+
+.nav__links a:hover::before {
+    width: 100%;
+}
+
+#login__btn {
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0099ff;
+}
+
+#login__btn:hover {
+    color: white;
+    background-color: #0099ff;
+}
+
+#banner {
+    height: 100vh;
+}
+
+#imgbanner {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* ESTILIZAÇÃO DA SEÇÃO DE CARDS */
+#card-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20%;
+}
+
+/* ESILIZAÇÃO DOS CARDS DA HOME */
+
+.card {
+    background-color: #0099ff;
+    width: 430px;
+    height: 460px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #ffffff;
+   
+}
+
+.card img {
+    width: 100%;
+    height: 260px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 40%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: .9rem;
+    color: #ffffff;
+    margin: 8px;
+    text-align: center;
+}
+
+.card button {
+    background-color: #ffffff;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    position: static;
+}
+
+  .card button:hover {
+    background-color: #0099ff;
+    cursor: pointer;
+}
+
+/* ESTILIZAÇÃO DO FOOTER */
+footer {
+    margin-top: auto;
+    background-color: #0099ff;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}

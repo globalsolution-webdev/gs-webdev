@@ -7,6 +7,52 @@
     <title>Home - Global solution</title>
 </head>
 <body>
-    
+    <header id="header">
+        <a href="#" class="logo">Ocean</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="sobre.html" onclick="alternarCores">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="login.html"><button id="login__btn">Login</button></a>
+    </header>
+
+    <section id="banner">
+        <img id="imgbanner">
+    </section>
+
+    <section id="card-section">
+        <div class="card">
+            <img src="img/oceans_o20.jpg" alt="oceans O20">
+            <div>
+                <h1> Oceans O20</h1>
+                <h2>cuide mais dos oceanos</h2>
+                <button onclick="redirect1()">Saiba mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/UNESCO.jpg" alt="UNESCO">
+            <div>
+                <h1>Unesco</h1>
+                <h2>cuide mais dos oceanos</h2>
+                <button onclick="redirect2()">Saiba mais</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Ocean © 2024 - Todos os direitos reservados</p>
+    </footer>
+
+<!-- JAVASCRIPT EXTERNO-->
+    <script src="js/script.js"></script>
+    <script>
+        alert('Seja bem-vindo');
+        slideShow();
+    </script>
 </body>
 </html>
