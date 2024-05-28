@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header id="header">
+        <a href="index.html" class="logo">Ocean</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="login.html"><button id="login__btn">Login</button></a>
+    </header>
+
+    <section id="contato__conteudo">
+        <h1>Preencha esse formulario: </h1>
+        <form id="form">
+            <label for="name">Nome:</label>
+            <input type="text"  id="name">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+
+            <label for="telephone">Telefone:</label>
+            <input type="tel"  id="telefone">
+            
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+    <footer id="footer-contato">
+        <p>Ocean © 2024 - Todos os direitos reservados</p>
+    </footer>
+    <!-- JAVASCRIPT EXTERNO-->
+    <script src="./js/script.js"></script>
 </body>
 </html>
